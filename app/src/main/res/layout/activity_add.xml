@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin">
+
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="时间" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请选择时间"
+                android:inputType="date" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="班次" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入班次" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="窑号" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入窑号" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="编号" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入编号" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="编号" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入编号" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="色号" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入色号" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="尺码" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入尺码" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="编号" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入编号" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="优等品" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入优等品数量"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="一等品" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入一等品数量"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="合格" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入合格数量"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/FormLayout">
+
+        <TextView
+            style="@style/FormText"
+            android:text="次品" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/FormEdit"
+                android:hint="请输入次品数量"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+</LinearLayout>
