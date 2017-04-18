@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.newpearl.app.MainActivity">
+    tools:context="com.newpearl.app.activity.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,12 +22,22 @@
 
     <include layout="@layout/content_main" />
 
+    <!--
+    app:backgroundTint - 设置FloatingActionButton背景颜色。
+    app:rippleColor - 设置FloatingActionButton点击时的背景颜色。
+    app:elevation - 默认状态下FloatingActionButton阴影大小。
+    app:pressedTranslationZ - 点击FloatingActionButton时的阴影大小。
+    app:fabSize - 设置FloatingActionButton大小，该属性有两个值，分别为normal和mini
+    app:layout_anchor - 设置锚点，以哪个控件为参照点设置位置。
+    app:layout_anchorGravity - 设置相对锚点的位置，值有 bottom、center、right、left、top等。
+    -->
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_menu_add" />
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
 </android.support.design.widget.CoordinatorLayout>
