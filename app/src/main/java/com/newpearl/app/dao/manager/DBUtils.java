@@ -3,6 +3,7 @@ package com.newpearl.app.dao.manager;
 import com.newpearl.app.bean.ERPData;
 
 import org.xutils.DbManager;
+import org.xutils.db.Selector;
 import org.xutils.db.table.TableEntity;
 import org.xutils.ex.DbException;
 import org.xutils.x;
@@ -75,5 +76,10 @@ public class DBUtils {
      */
     public ERPData findBy(ERPData erpData, int id) throws DbException {
         return db.findById(ERPData.class, id);
+    }
+
+    public List<ERPData> findByERPData(ERPData erpData) throws DbException {
+        Selector<ERPData> selector = db.selector(ERPData.class);
+        return null;
     }
 }
